@@ -1,0 +1,6 @@
+-----------------------------Github.com/danielmrosa/minicurso-docker--------------------------------------------
+
+como construir
+dentro da pasta usuario: sudo docker build -t myapp .
+
+run myapp: docker run --name myapp -p 8080:8080 myapp
